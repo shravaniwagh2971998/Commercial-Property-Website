@@ -1,0 +1,951 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+
+<head>
+    <!-- Basic Page Needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Specific Meta
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+
+    <!-- Titles
+    ================================================== -->
+    <title>Property</title>
+
+    
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.html">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.html">
+
+    <!-- Custom Font
+    ================================================== -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i%7cPoppins:300,400,500,600,700" rel="stylesheet">   
+    
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="assets/css/plugins.css">
+    <link rel="stylesheet" href="assets/css/colors.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- Modernizr
+    ================================================== -->
+    <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+
+
+
+    <!-- priyashravani -->
+
+    
+  <script src="js/js1/jquery1.min.js"></script>
+
+
+<script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.min.js"></script>
+
+<script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-aria.min.js"></script>
+<script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-messages.min.js"></script>
+<script src = "https://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.js"></script>
+<link rel = "stylesheet" href = "https://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.css">
+
+ 
+
+  <script src="js/js1/angular.min.js"></script>  
+  <script src="js/js1/angular-animate.min.js"></script>
+  <script src="js/js1/angular-aria.min.js"></script>
+  <script src="js/js1/angular-messages.min.js"></script>
+  <script src="js/js1/angular-material.min.js"></script> 
+
+
+   <script type="text/javascript" src="js/js1/smart-table.min.js"></script>
+  <script src="js/js1/angular-ui-router.min.js"></script>
+  <script type="text/javascript" src="js/js1/angular-sanitize.min.js"></script>
+  <script type="text/javascript" src="js/js1/ui-bootstrap-tpls.js"></script>
+ 
+  <link rel = "stylesheet" href = "https://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.css">
+  <link rel="stylesheet" href="css/w3.css">
+  <link rel = "stylesheet" href = "https://fonts.googleapis.com/icon?family=Material+Icons">
+ 
+
+
+  <link rel = "stylesheet" href = "bootstrap-datepicker.css">
+  <script src="bootstrap-datepicker.js"></script>
+  <!-- <script src="js/js1/bootstrap1.min.js"></script> -->
+
+ <script type="text/javascript" src="properties.js"></script>
+   <link rel="stylesheet" href="css/new.css">
+ <!-- <script>
+   $(function() {
+    $('.dates #user1').datepicker({'format':'yyyy-mm-dd','autoclose':true});
+   });
+ </script>
+ -->
+
+</head>
+<body>
+<div ng-app="cardapp" ng-controller="cardCtrl">
+    <!-- ====== Header Mobile Area ====== -->
+    <header class="mobile-header-area bg-nero hidden-md hidden-lg">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 tb">
+                    <div class="mobile-header-block">
+                        <div class="menu-area tb-cell">
+                            <!--Mobile Main Menu-->
+                            <div class="mobile-menu-main hidden-md hidden-lg">
+                                <div class="menucontent overlaybg"></div>
+                                <div class="menuexpandermain slideRight">
+                                    <a id="navtoggole-main" class="animated-arrow slideLeft menuclose">
+                                        <span></span>
+                                    </a>
+                                    <span id="menu-marker"></span>
+                                </div><!--/.menuexpandermain-->
+                                <div id="mobile-main-nav" class="main-navigation slideLeft">
+                                    <div class="menu-wrapper">
+                                        <div id="main-mobile-container" class="menu-content clearfix"></div>
+                                        <div class="left-content">
+                                            <ul>
+                                              
+
+
+                                                 <li>
+                                   <button class="btn threed1" style="background: transparent;">
+                                    <a href="propertforyou.html"> Post Your Property</a></button>
+                                </li>
+
+
+                                                <li>
+                                                    <a href="#" class="cd-signin"><i class="fa fa-address-book"></i>Login / Register</a>
+                                                </li>
+                                            </ul>
+                                        </div><!-- /.left-content -->
+                                    </div>
+                                </div><!--/#mobile-main-nav-->
+                            </div><!--/.mobile-menu-main-->
+                        </div><!-- /.menu-area -->
+                        <div class="logo-area tb-cell">
+                            <div class="site-logo">
+
+                                <a href="buy.html">
+                                   <img src="images/logo1.jpg" alt="site-logo" style="width: 73px;border-radius: 10px;margin-left: 199px;" />    
+                                   <button class="btn dropdown-toggle" type="button" style="color: black;border: 1px solid #a29999;">Pune
+                                         <span class="caret"></span></button>
+                                </a>
+                            </div>
+
+                            <!-- /.site-logo -->
+                        </div><!-- /.logo-area -->
+                    </div><!-- /.mobile-header-block -->
+                </div><!-- /.col-md-12 -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </header><!-- /.mobile-header-area --> 
+
+
+
+
+        <!-- ====== Header Top Area ====== -->
+    <header class="header-area bg-nero hidden-xs hidden-sm">
+        <div class="container">
+            <div class="header-top-content">
+                <div class="row">
+                    
+                    <div class="col-md-2 col-sm-2 mobile-center">
+                      <!--   <div class="site-logo" style=""> -->
+                            <a href="buy.html">
+                    <img src="images/logo1.jpg" alt="site-logo" style="border-radius: 17px; width: 90px;"/>
+                            </a>
+
+
+                      <!--   </div> --><!-- /.site-logo -->
+                    </div>
+
+
+                      <div class="col-md-3 col-sm-3 mobile-center">
+                         
+
+                           <h4 style="color: white;font-size: 27px;margin-left: -78px;margin-top: 28px;">Commercial Property</h4>
+                          
+                        
+                    </div>
+
+
+                     <div class="col-md-2 col-sm-2 mobile-center" >
+                       
+                         
+                                <button class="btn dropdown-toggle" type="button" style="color: black;border: 1px solid #a29999;margin-top: 37px;margin-left: -98px;">Pune
+                                         <span class="caret"></span></button>
+                    </div>
+                    <!-- /.col-md-8 -->
+                    <div class="col-md-4 col-sm-4 mobile-center" style="">
+                        <div class="left-content" style="margin-right:-25px !important;">
+                            <ul>
+                                <li>
+                                   <button class="btn threed1" style="background: transparent;">
+                                    <a href="propertforyou.html"> Post Your Property</a></button>
+                                </li>
+                                <li>
+                                    <a href="#" class="cd-signin"><i class="fa fa-address-book"></i>Login / Register</a>
+                                </li>
+                         
+                            </ul>
+                        </div><!-- /.left-content -->
+                    </div><!
+
+                </div><!-- /.row -->
+            </div><!-- /.header-top-content -->
+        </div><!-- /.container -->
+    </header><!-- /.head-area -->
+
+
+    <!-- ====== Header Bottom Content ====== -->
+   
+
+  <div class="header-overlay-content">
+
+
+     <!-- overlay-menu-item -->
+        <div class="overlay overlay-hugeinc gradient-transparent overlay-menu-item">
+            <button type="button" class="overlay-close">Close</button>
+            <nav>
+                <ul class="overlay-menu">
+                 
+                </ul>
+            </nav>
+        </div> <!-- /.overlay-menu-item -->
+
+
+    <!-- header-search-content -->
+        <div class="gradient-transparent overlay-search">
+            <button type="button" class="overlay-close">Close</button>
+            <div class="header-search-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <form action="#" method="get" class="searchform">
+                                <div class="input-group" id="adv-search">
+                                    <input type="text" class="form-controller" placeholder="Search for snippets" />
+                                    <div class="input-group-btn">
+                                        <div class="btn-group" role="group">
+                                            <div class="dropdown dropdown-lg">
+                                                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                                    <span class="fa fa-caret-down"></span>
+                                                </button>
+                                                <div class="dropdown-menu dropdown-menu-right" role="menu">
+                                                    <div class="form-horizontal">
+                                                        <div class="checkbox">
+                                                            <label><input type="checkbox"> From Blog</label>
+                                                        </div>
+                                                        <div class="checkbox">
+                                                            <label><input type="checkbox">Find Your Apartment</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <button type="submit" class="btn btn-primary">
+                                                <span class="fa fa-search" aria-hidden="true"></span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- /.header-search-content -->  
+
+
+          <!-- Registrar Or Sign In-content -->
+        <div class="cd-user-modal">
+            <div class="cd-user-modal-container">
+                <ul class="cd-switcher">
+                    <li><a href="#0">Sign in</a></li>
+                    <li><a href="#0">New account</a></li>
+                </ul>
+
+                <!-- log in form -->
+                <div id="cd-login"> 
+                    <form class="cd-form">
+                        <p class="fieldset">
+                            <label class="image-replace cd-email" for="signin-email">E-mail</label>
+                            <input class="full-width has-padding has-border" id="signin-email" type="email" placeholder="E-mail">
+                            <span class="cd-error-message">Error message here!</span>
+                        </p>
+
+                        <p class="fieldset">
+                            <label class="image-replace cd-password" for="signin-password">Password</label>
+                            <input class="full-width has-padding has-border" id="signin-password" type="text"  placeholder="Password">
+                            <a href="#0" class="hide-password">Hide</a>
+                            <span class="cd-error-message">Error message here!</span>
+                        </p>
+
+                        <p class="fieldset">
+                            <input type="checkbox" id="remember-me" checked>
+                            <label for="remember-me">Remember me</label>
+                        </p>
+
+                        <p class="fieldset">
+                            <input class="full-width" type="submit" value="Login">
+                        </p>
+                    </form>
+                    
+                    <p class="cd-form-bottom-message">
+                        <a href="#0">Forgot your password?</a>
+                    </p>
+                    <a href="#0" class="cd-close-form">Close</a>
+                </div> <!-- cd-login -->
+
+                <!-- sign up form -->
+                <div id="cd-signup">
+                    <form class="cd-form">
+                        <p class="fieldset">
+                            <label class="image-replace cd-username" for="signup-username">Username</label>
+                            <input class="full-width has-padding has-border" id="signup-username" type="text" placeholder="Username">
+                            <span class="cd-error-message">Error message here!</span>
+                        </p>
+
+                        <p class="fieldset">
+                            <label class="image-replace cd-email" for="signup-email">E-mail</label>
+                            <input class="full-width has-padding has-border" id="signup-email" type="email" placeholder="E-mail">
+                            <span class="cd-error-message">Error message here!</span>
+                        </p>
+
+                        <p class="fieldset">
+                            <label class="image-replace cd-password" for="signup-password">Password</label>
+                            <input class="full-width has-padding has-border" id="signup-password" type="text"  placeholder="Password">
+                            <a href="#0" class="hide-password">Hide</a>
+                            <span class="cd-error-message">Error message here!</span>
+                        </p>
+
+                        <p class="fieldset">
+                            <input type="checkbox" id="accept-terms">
+                            <label for="accept-terms">I agree to the <a href="#0">Terms</a></label>
+                        </p>
+
+                        <p class="fieldset">
+                            <input class="full-width has-padding" type="submit" value="Create account">
+                        </p>
+                    </form>
+
+                    <a href="#0" class="cd-close-form">Close</a>
+                </div> <!-- cd-signup -->
+                
+                <!-- reset password form -->
+                <div id="cd-reset-password">
+                    <p class="cd-form-message">Lost your password? Please enter your email address. You will receive a link to create a new password.</p>
+
+                    <form class="cd-form">
+                        <p class="fieldset">
+                            <label class="image-replace cd-email" for="reset-email">E-mail</label>
+                            <input class="full-width has-padding has-border" id="reset-email" type="email" placeholder="E-mail">
+                            <span class="cd-error-message">Error message here!</span>
+                        </p>
+                        <p class="fieldset">
+                            <input class="full-width has-padding" type="submit" value="Reset password">
+                        </p>
+                    </form>
+
+                    <p class="cd-form-bottom-message"><a href="#0">Back to log-in</a></p>
+                </div> <!-- cd-reset-password -->
+                <a href="#0" class="cd-close-form">Close</a>
+            </div> <!-- cd-user-modal-container -->
+        </div> <!-- cd-user-modal -->
+    </div><!-- /.header-overlay-content -->
+
+
+    <!--property cards -->
+        <div class="container">
+          <div class="row" style="margin-top: 80px;">
+
+              <div class="col-md-9">
+<div class="houseCardWrapper">
+  <!-- 1st card -->
+  <div class="houseCard cardShadow shadow">
+    <div class="houseCartTopSection">
+      <span class="genderTag">boys/girls</span>
+      <div class="imagePlaceholder">
+        <div>
+          <div class="houseCardImages">
+            <a href="singleProperty.html">
+            <div class="carouselImage" style="background-image: url(images/b1.jpg);">
+            </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cardContent">
+      <h5 class="houseOfTitle" title="Shared Room Apartment ,Hinjewadi" style="color: black;">
+        3 Shared Room
+        <span style="text-transform: capitalize;"></span>
+      </h5>
+      <div class="houseRent">
+        <b style="color: black"><!-- <small class="rupee"> -->₹<!-- </small> -->1520</b>
+      </div>
+      <div class="houseDeposit">
+        <b style="color: black;font-weight: 600;"><!-- <span> -->174,240 sq.ft<!-- </span> --></b>
+        <b style="color: black;font-weight: 600;">&nbsp;&nbsp;1 BHK</b>
+      </div>
+
+      <div style="margin-top: 5px;">
+  {{ jobs.description | limitTo:strLimit }}
+  <span ng-if="jobs.description.length > 50 && jobs.description.length != strLimit">
+    <button class="btn" style="background: transparent;color: blue;margin-top: -1px;margin-left: -10px;" ng-click="showMore()">Show more</button>
+  </span>
+  <span ng-if="jobs.description.length == strLimit">
+    <button class="btn" style="background: transparent;color: blue;margin-top: -1px;margin-left: -10px;" ng-click="showLess()">Show less</button>
+  </span>
+</div>
+
+    </div>
+    <div class="savButtonWidget">
+     <!--  <div class="srpVisitButton"> -->
+  <button type="button" class="btn btn-lg srpVisitButton" data-toggle="modal" data-target="#mynav1155">Book Free Visit</button>
+
+  <!-- Modal -->
+  <div class="modal fade " id="mynav1155" role="dialog">
+    <div class="modal-dialog">
+    
+    
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title"><center><b>Book Visit</b></center></h4>
+        </div>
+        <div class="modal-body">
+              <div ng-show="form1">
+              <div class="row form-group">
+                <div class="col-md-offset-4 col-md-4">
+                  <img src="images/a.gif" style="height: 150px;width: 190px;">
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-offset-4 col-md-4">
+                  <span style="color: brown;">See 2-3 houses at our</span>
+                </div>
+              </div>
+
+               <div class="row">
+                <div class="col-md-offset-3 col-md-4">
+                  <b>Hadapsar Store</b>
+                </div>
+              </div>
+
+               <div class="row form-group">
+                <div class="col-md-offset-3 col-md-5">
+                  <p style="color: grey">Open from 10am-7pm</p>
+                </div>
+              </div>
+
+              <div class="row form-group">
+                <div class="col-md-offset-3 col-md-6  ">
+                  When are you planning to visit?
+
+<a href="http://whatsapp://send?text=Hey, Please open this website to buy this material at this price. www.xyz.com" data-original-title="whatsapp" rel="tooltip" class="btn btn-whatsapp" data-placement="left"></a>
+                <!--   <a href="https://api.whatsapp.com/send?phone=9527023793">Ping me on WhatsApp</a> -->
+                </div>
+              </div>
+
+              <div class="row form-group">
+                <div class="col-md-offset-3 col-md-6">
+                  <div class="form-group">
+                <div class='input-group date' id='datetimepicker1' required="">
+                    <input type='date' class="form-control" ng-model="obj.dates" />
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-calendar"></span>
+                    </span>
+                </div>
+                    <!-- <div class="date">
+                      <label>Choose Date</label>
+                      <input type="text" name="" autocomplete="off" id="user1" class="form-control" placeholder="yyyy-mm-dd">
+                    </div> -->
+
+
+                  </div>
+                  
+
+                </div>
+              </div>
+
+              <div class="row form-group">
+                <div class="col-md-offset-2 col-md-6  ">
+                  <button class="btn" style="background-color: black;color: white" ng-click="openModal()">Confirm Date For Visit</button>
+                </div>
+              </div>
+            </div>
+
+              <div ng-show="form2">
+                <div class="row form-group">
+                  <div class="col-md-offset-3 col-md-5">
+                    <h4><b>Schedule your visit</b></h4>
+                  </div>
+                </div>
+            
+                <div class="row">
+                  <div class="col-md-offset-1 col-md-4">
+                    <p style="color: grey">Your store visit date:</p>
+                  </div>
+                </div>
+              
+                <div class="row">
+                  <div class="col-md-offset-1 col-md-6">
+                    <b>{{obj.dates | date:'MMMM dd, yyyy' }}</b>
+                  </div>
+                </div>
+              
+                <div class="row form-group">
+                  <div class="col-md-offset-1 col-md-10">
+                    <p style="color: grey">SMS/Email will be sent with exact directions to the house.</p>
+                  </div>
+                </div>
+
+                <div class="row form-group">
+                  <div class="col-md-offset-3 col-md-6">
+                    <div class="form-group">
+                <div class='input-group date'>
+                  <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-plus">91</span>
+                    </span>
+                    <input type='text' class="form-control" placeholder="Phone Number " />
+                      </div>
+                </div>
+                  </div>
+                </div>
+
+                <div class="row form-group">
+                  <div class="col-md-offset-3 col-md-6">
+                    <input type='email' class="form-control" placeholder="Email ID" />
+
+                  </div>
+                </div>
+
+                <div class="row form-group">
+                <div class="col-md-offset-2 col-md-6">
+                  <button class="btn" style="background-color: black;color: white">Proceed For Free Visit</button>
+                </div>
+                </div>
+
+                
+
+               <!--  <div class="row form-group">
+                <div class="col-md-4">
+                  <input type="checkbox" name="agree" value="agree" ng-model="obj.ch" ng-checked="true">&nbsp;&nbsp;I agree
+                </div>
+              </div> -->
+
+            </div>
+          
+        </div>
+        <div class="modal-footer">
+            <div class="row form-group">
+                <div class="col-md-offset-2 col-md-3">
+                  <button class="btn" style="background-color: #0c6f29;color: white;">
+                  <a href="properties.html">Continue</a>
+                </button>
+                </div>
+
+                <div class="col-md-offset-1 col-md-3">
+                  <button class="btn" style="background-color: #cc1724;;color: white;">
+                  <a href="buy.html">Finish</a>
+                </button>
+                </div>
+            </div>
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+      <!-- </div> -->
+      <!-- <div class="visitInfo">5 visits happening within 12 hrs</div> -->
+    </div>
+  <!-- </a> -->
+</div>
+</div> 
+<!-- 1st card end -->
+
+<div class="houseCardWrapper">
+  <!-- 1st card -->
+  <div class="houseCard cardShadow  shadow">
+    <div class="houseCartTopSection">
+      <span class="genderTag">Boys</span>
+      <div class="imagePlaceholder">
+        <div>
+          <div class="houseCardImages">
+            <a href="singleProperty.html">
+            <div class="carouselImage" style="background-image: url(images/p1.jpg);">
+            </div>
+          </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cardContent">
+      <h5 class="houseOfTitle" title="Shared Room Apartment ,Hinjewadi" style="color: black;">
+        3 Shared Room
+        <span style="text-transform: capitalize;"></span>
+      </h5>
+      <div class="houseRent">
+        <b style="color: black">₹15200</b>
+      </div>
+      <div class="houseDeposit">
+        <b style="color: black;font-weight: 600;"><!-- <span> -->174,240 sq.ft<!-- </span> --></b>
+        <b style="color: black;font-weight: 600;">&nbsp;&nbsp;3 BHK</b>
+      </div>
+
+      <div style="margin-top: 5px;">
+  {{ jobs.description | limitTo:strLimit }}
+  <span ng-if="jobs.description.length > 50 && jobs.description.length != strLimit">
+    <button class="btn" style="background: transparent;color: blue;margin-top: -1px;margin-left: -10px;" ng-click="showMore()">Show more</button>
+  </span>
+  <span ng-if="jobs.description.length == strLimit">
+    <button class="btn" style="background: transparent;color: blue;margin-top: -1px;margin-left: -10px;" ng-click="showLess()">Show less</button>
+  </span>
+    </div>
+
+    </div>
+    <div class="savButtonWidget">
+     <!--  <div class="srpVisitButton"> -->
+        <button type="button" class="btn btn-lg srpVisitButton" data-toggle="modal" data-target="#mynav1155">Book Free Visit</button>
+
+
+  
+      <!-- </div> -->
+      <!-- <div class="visitInfo">5 visits happening within 12 hrs</div> -->
+    </div>
+  </div>
+</div> <!-- 2nd card end -->
+
+<div class="houseCardWrapper">
+  <!-- 1st card -->
+  <div class="houseCard cardShadow  shadow ">
+    <div class="houseCartTopSection">
+      <span class="genderTag">Girls</span>
+      <div class="imagePlaceholder">
+        <div>
+          <div class="houseCardImages">
+            <a href="singleProperty.html">
+            <div class="carouselImage" style="background-image: url(images/p4.jpg);">
+            </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cardContent">
+      <h5 class="houseOfTitle" title="Shared Room Apartment ,Hinjewadi" style="color: black;">
+        3 Shared Room
+        <span style="text-transform: capitalize;"></span>
+      </h5>
+      <div class="houseRent">
+        <b style="color: black">₹6000</b>
+      </div>
+      <div class="houseDeposit">
+        <b style="color: black;font-weight: 600;"><!-- <span> -->54,240 sq.ft<!-- </span> --></b>
+        <b style="color: black;font-weight: 600;">&nbsp;&nbsp;3 BHK</b>
+      </div>
+
+      <div style="margin-top: 5px;">
+  {{ jobs.description | limitTo:strLimit }}
+  <span ng-if="jobs.description.length > 50 && jobs.description.length != strLimit">
+    <button class="btn" style="background: transparent;color: blue;margin-top: -1px;margin-left: -10px;" ng-click="showMore()">Show more</button>
+  </span>
+  <span ng-if="jobs.description.length == strLimit">
+    <button class="btn" style="background: transparent;color: blue;margin-top: -1px;margin-left: -10px;" ng-click="showLess()">Show less</button>
+  </span>
+</div>
+    </div>
+    <div class="savButtonWidget">
+     <!--  <div class="srpVisitButton"> -->
+<button type="button" class="btn btn-lg srpVisitButton" data-toggle="modal" data-target="#mynav1155">Book Free Visit</button>
+
+ 
+  
+      <!-- </div> -->
+      <!-- <div class="visitInfo">5 visits happening within 12 hrs</div> -->
+    </div>
+  </div>
+</div> 
+
+<div class="houseCardWrapper">
+  <!-- 1st card -->
+  <div class="houseCard cardShadow  shadow">
+    <div class="houseCartTopSection">
+      <span class="genderTag">boys/girls</span>
+      <div class="imagePlaceholder">
+        <div>
+          <div class="houseCardImages">
+            <a href="singleProperty.html">
+            <div class="carouselImage" style="background-image: url(images/s2.jpg);">
+            </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cardContent">
+      <h5 class="houseOfTitle" title="Shared Room Apartment ,Hinjewadi" style="color: black;">
+        3 Shared Room
+        <span style="text-transform: capitalize;"></span>
+      </h5>
+      <div class="houseRent">
+        <b style="color: black">₹6000</b>
+      </div>
+      <div class="houseDeposit">
+        <b style="color: black;font-weight: 600;"><!-- <span> -->54,240 sq.ft<!-- </span> --></b>
+        <b style="color: black;font-weight: 600;">&nbsp;&nbsp;4 BHK</b>
+      </div>
+
+      <div style="margin-top: 5px;">
+  {{ jobs.description | limitTo:strLimit }}
+  <span ng-if="jobs.description.length > 50 && jobs.description.length != strLimit">
+    <button class="btn" style="background: transparent;color: blue;margin-top: -1px;margin-left: -10px;" ng-click="showMore()">Show more</button>
+  </span>
+  <span ng-if="jobs.description.length == strLimit">
+    <button class="btn" style="background: transparent;color: blue;margin-top: -1px;margin-left: -10px;" ng-click="showLess()">Show less</button>
+  </span>
+</div>
+    </div>
+    <div class="savButtonWidget">
+     <!--  <div class="srpVisitButton"> -->
+  <button type="button" class="btn btn-lg srpVisitButton" data-toggle="modal" data-target="#mynav1155">Book Free Visit</button>
+
+  <!-- Modal -->
+  <div class="modal fade " id="mynav1155" role="dialog">
+
+  </div>
+  
+      <!-- </div> -->
+     <!--  <div class="visitInfo">5 visits happening within 12 hrs</div> -->
+    </div>
+  <!-- </a> -->
+</div>
+</div> 
+<!-- 4th card end -->
+
+</div> <!-- col-ng-9 -->
+
+
+          </div>
+</div>
+
+
+
+
+          <section id="footer">
+    <div class="container"> 
+      <div class="row text-center text-xs-center text-sm-left text-md-left">
+        <div class="col-xs-12 col-sm-4 col-md-2">
+          <h5>Real Estate In Pune</h5>
+          <ul class="list-unstyled quick-links">
+            <li>
+              <a href="">
+              <i class="fa fa-angle-double-right"></i>Magarpatta City
+            </a>
+            </li>
+            <li>
+              <a href="">
+              <i class="fa fa-angle-double-right"></i>Amanora Park
+            </a>
+            </li>
+            <li>
+              <a href="">
+                <i class="fa fa-angle-double-right"></i> Town Hadapsar
+              </a>
+              </li>
+            <li>
+              <a href="">
+                <i class="fa fa-angle-double-right"></i>Kharadi
+              </a>
+              </li>
+            <li>
+              <a href="">
+                <i class="fa fa-angle-double-right"></i> Viman Nagar 
+              </a>
+              </li>
+
+             <li>
+              <a href="">
+                <i class="fa fa-angle-double-right"></i> Kalyani Nagar 
+              </a>
+              </li>
+
+
+             <li>
+              <a href="">
+                <i class="fa fa-angle-double-right"></i>  Koregaon Park 
+              </a>
+            </li>
+             <li>
+              <a href="">
+                <i class="fa fa-angle-double-right"></i>  Mundhawa
+                 </a>
+              </li>
+              <li>
+                <a href="">
+                  <i class="fa fa-angle-double-right"></i> Keshav Nagar 
+                </a>
+              </li>
+          </ul>
+        </div>
+         <div class="col-xs-12 col-sm-4 col-md-2">
+         
+         <div class="row" style="margin-top: 62px;"></div>
+          <ul class="list-unstyled quick-links">
+            <li>
+              <a href="">
+              <i class="fa fa-angle-double-right"></i>Magarpatta City
+            </a>
+            </li>
+            <li>
+              <a href="">
+              <i class="fa fa-angle-double-right"></i>Amanora Park
+            </a>
+            </li>
+            <li>
+              <a href="">
+                <i class="fa fa-angle-double-right"></i> Town Hadapsar
+              </a>
+              </li>
+            <li>
+              <a href="">
+                <i class="fa fa-angle-double-right"></i>Kharadi
+              </a>
+              </li>
+            <li>
+              <a href="">
+                <i class="fa fa-angle-double-right"></i> Viman Nagar 
+              </a>
+              </li>
+
+             <li>
+              <a href="">
+                <i class="fa fa-angle-double-right"></i> Kalyani Nagar 
+              </a>
+              </li>
+
+
+             <li>
+              <a href="">
+                <i class="fa fa-angle-double-right"></i>  Koregaon Park 
+              </a>
+            </li>
+             <li>
+              <a href="">
+                <i class="fa fa-angle-double-right"></i>  Mundhawa
+                 </a>
+              </li>
+              <li>
+                <a href="">
+                  <i class="fa fa-angle-double-right"></i> Keshav Nagar 
+                </a>
+              </li>
+          </ul>
+        </div>
+
+          <div class="col-xs-12 col-sm-4 col-md-2">
+         
+         <div class="row" style="margin-top: 62px;"></div>
+          <ul class="list-unstyled quick-links">
+            <li>
+              <a href="">
+              <i class="fa fa-angle-double-right"></i>Camp
+            </a>
+            </li>
+            <li>
+              <a href="">
+              <i class="fa fa-angle-double-right"></i>Fatimanagar
+            </a>
+            </li>
+            <li>
+              <a href="">
+                <i class="fa fa-angle-double-right"></i> Wanowari
+              </a>
+              </li>
+            <li>
+              <a href="">
+                <i class="fa fa-angle-double-right"></i>Swargate
+              </a>
+              </li>
+            <li>
+              <a href="">
+                <i class="fa fa-angle-double-right"></i> Kothrud/ Karvenagar
+              </a>
+              </li>
+
+             <li>
+              <a href="">
+                <i class="fa fa-angle-double-right"></i> Paud Road 
+              </a>
+              </li>
+
+
+             <li>
+              <a href="">
+                <i class="fa fa-angle-double-right"></i>Shivajinagar
+              </a>
+            </li>
+             <li>
+              <a href="">
+                <i class="fa fa-angle-double-right"></i> Bhosale Nagar
+                 </a>
+              </li>
+              <li>
+                <a href="">
+                  <i class="fa fa-angle-double-right"></i> S B Road
+                </a>
+              </li>
+
+               <li>
+                <a href="">
+                  <i class="fa fa-angle-double-right"></i>F C Road
+                </a>
+              </li>
+
+              <li>
+                <a href="">
+                  <i class="fa fa-angle-double-right"></i>University Road
+                </a>
+              </li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-2">
+          <h5>Company</h5>
+          <ul class="list-unstyled quick-links">
+            <li><a href=""><i class="fa fa-angle-double-right"></i>Contact Us</a></li>
+            <li><a href=""><i class="fa fa-angle-double-right"></i>About US</a></li>
+           
+          </ul>
+        </div>
+
+        <div class="col-xs-12 col-sm-4 col-md-4">
+          <h5>Cotact Us</h5>
+          <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+          <ul class="list-unstyled list-inline social text-center">
+            <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-mobile" style="font-size: 30px"></i></a></li>
+            <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-envelope"></i></a></li>
+            <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-whatsapp"></i></a></li>
+          </ul>
+        </div>
+      </div>
+        
+    </div>
+  </div>
+
+  </section>
+</div>
+
+ <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/main.js"></script> <!-- main-js -->
+</body>
+</html>

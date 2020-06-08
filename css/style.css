@@ -1,0 +1,580 @@
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.tabhead
+{
+  background-color: transparent !important;
+}
+.main
+{
+  background:transparent;
+  color: black;
+   width: 780px;
+     margin-top: 85px; 
+    /* border: 4px solid #d025db;*/
+}
+
+.a
+{
+  background-image: url("resources/newpro/b1.jpg");
+  background-size: cover;
+  height: 100%;
+
+}
+.b
+{
+
+  
+min-height: 600px  !important;
+
+}
+
+.bgcolor
+{
+  background-color: #1322cb;
+}
+
+.inner
+{
+  /*font-family: cursive;
+   font-size: 18px;
+   color:#0b187a;*/
+   font-size: 13px;
+font-weight: 700;
+color: #FFFFFF;
+text-transform: uppercase;
+margin-bottom: 14px;
+}
+
+.inner1
+{
+  font-family: cursive;
+   font-size: 15px;
+   color:#0b187a;
+}
+.colors
+{
+  color: #1322cb;
+  font-size: 18px;
+ 
+
+ font-family: serif;
+ /* font-weight: bold;*/
+}
+.list
+{
+  background-color: #21D4FD;
+background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+}
+.bgcolorss:hover
+{
+/* background-color: #bdd4e7;
+background-image: linear-gradient(315deg, #bdd4e7 0%, #8693ab 74%) ;*/
+/*background-color: #FAACA8;
+background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%) !important;
+*/
+
+background-color: #21D4FD;
+background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+/*border-radius: 10px;*/
+
+
+border-top-left-radius: 19px;
+border-bottom-right-radius: 19px;
+}
+.text-3d {
+    font-size: 5rem;
+
+position: absolute;
+
+top: 6%;
+
+left: 16%;
+
+transform: translate(-54%, -37%) skewY(-1deg);
+
+transform-origin: bottom left;
+
+color:#1322cb !important;
+
+
+
+text-shadow: 1px -1px 10px rgba(255, 255, 255, 0.4), 0px -1px 10px rgba(255, 255, 255, 0.4), -1px -1px 10px rgba(255, 255, 255, 0.4), 0px -2px 3px #fff, -1px -2px 3px #fff, -2px -2px 3px #fff, -1px -3px 2px #ddd, -2px -3px 2px #ddd, -3px -3px 2px #ddd, -2px -4px 2px #fff, -3px -4px 2px #fff, -4px -4px 2px #fff, -3px -5px 1px #fff, -4px -5px 1px #fff, -5px -5px 1px #fff;
+}
+.text-3d:before {
+
+   /* content: "Hello";*/
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: skewX(30deg);
+    transform-origin: bottom left;
+    z-index: -1;
+    color: transparent;
+    text-shadow:  
+    15px 0px 20px rgba(0, 0, 0, 0.25), 
+    15px 0px 25px rgba(0, 0, 0, 0.2),
+    15px 0px 35px rgba(0, 0, 0, 0.15), 
+    15px 0px 45px rgba(0, 0, 0, 0.1);
+}
+.centered {
+ position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+height: 62px;
+border-radius: 28px;
+}
+
+input[type=checkbox].ch
+{
+
+margin-left: -6px;
+
+
+}
+
+input[type=radio].ra
+{
+
+margin-left: -6px;
+
+
+}
+
+input[type=text].in{
+margin-top: 14px;
+width: 489px;
+border: 1px solid gray;
+border-radius: 5px;
+height: 33px;
+}
+
+.scroll
+{
+  position:fixed;
+        top:50px;
+        bottom:0;
+        left:0;
+    /*    width:200px;*/
+        overflow-x:hidden;
+        overflow-y:auto;
+
+        height: 300px;
+}
+.dropbtn {
+ background-color:  #1322cb;
+
+color: white;
+
+padding: 10px;
+
+font-size: 15px;
+
+border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 92px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #ab2bab;}
+
+
+/* Footer */
+/*@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+*/section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#footer {
+    background: black !important;
+}
+#footer h5{
+  padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+  padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+  font-size:25px;
+  -webkit-transition: .5s all ease;
+  -moz-transition: .5s all ease;
+  transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+  font-size:30px;
+  margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+  color:#ffffff;
+}
+#footer ul.social li a:hover{
+  color:#eeeeee;
+}
+#footer ul.quick-links li{
+  padding: 3px 0;
+  -webkit-transition: .5s all ease;
+  -moz-transition: .5s all ease;
+  transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+  padding: 3px 0;
+  margin-left:5px;
+  font-weight:700;
+}
+#footer ul.quick-links li a i{
+  margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px){
+  #footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
+
+.li:hover
+{
+  font-size: 21px;
+  color: white !important;
+  background: transparent !important;
+}
+
+
+
+.radioButtondemoBasicUsage p:last-child {
+  padding-bottom: 50px; }
+
+.radioButtondemoBasicUsage [ng-controller] {
+  padding: 0 20px; }
+
+.radioButtondemoBasicUsage .radioValue {
+  margin-left: 5px;
+  color: #0f9d58;
+  font-weight: bold;
+  padding: 5px; }
+
+.radioButtondemoBasicUsage md-icon {
+  margin: 0 20px 20px;
+  width: 128px;
+  height: 128px; }
+
+.radioButtondemoBasicUsage .ipsum {
+  color: saddlebrown;
+  font-size: 0.9em; }
+
+
+
+
+
+.prop
+{
+  border: 1px solid grey;
+}
+.prop:hover
+{
+  border-bottom: 3px solid red;
+  font-size: 16px;
+}
+
+.houseCardWrapper {
+    width: 100%;
+    position: relative;
+}
+.houseCardWrapper {
+    position: relative;
+    vertical-align: top;
+    padding-bottom: 1px;
+    margin-bottom: 15px;
+}
+.houseCardWrapper .houseCard {
+    padding: 16px;
+    display: block;
+    background-color: #fff;
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 2px;
+}
+.houseCardWrapper .cardShadow {
+    border: none;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.12);
+}
+.cardShadow {
+    border: 1px solid #ddd;
+    transition: all .2s ease-in-out 0s;
+}
+.houseCardWrapper .houseCartTopSection {
+    width: 20%;
+    display: inline-block;
+    position: relative;
+}
+.houseCardWrapper .houseCard .genderTag {
+    display: inline-block;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 3px 7px;
+    font-size: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 3;
+}
+.houseCardWrapper .houseCard {
+    cursor: pointer;
+}
+.houseCardWrapper .imagePlaceholder {
+    background-color: #ddd;
+    text-align: center;
+    height: 135px;
+    border-radius: 4px;
+}
+.houseCardWrapper .houseCard .houseCardImages {
+    height: 135px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 4px;
+}
+.houseCardWrapper .houseCard .houseCardImages .carouselImage {
+    width: 100%;
+    height: 135px;
+    background: no-repeat 50%;
+        background-image: none;
+        background-size: auto;
+    background-size: cover;
+}
+.houseCardWrapper .imagePlaceholder .carouselImage {
+    position: relative;
+}
+.houseCardWrapper .houseCard .cardContent {
+    width: 60%;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 20px;
+    padding-bottom: 0;
+    position: relative;
+}
+ .houseRent {
+    display: inline-block;
+    font-size: 20px;
+}
+ .houseDeposit {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    text-align: left;
+    padding-top: 6px;
+    padding-left: 24px;
+    position: relative;
+    color: #989898;
+}
+.houseCardWrapper .houseCard .cardContent .houseSeoTittle {
+    font-size: 14px;
+    margin-top: 10px;
+    min-height: 62px;
+}
+.Srp .ResultArea .srpLeftWrap .savButtonWidget {
+    width: 23%;
+}
+.savButtonWidget {
+    width: 20%;
+    display: inline-block;
+    padding: 10px 0;
+    text-align: right;
+    vertical-align: top;
+    position: relative;
+    margin-top: -155px;
+    float: right; 
+}
+.savButtonWidget .srpVisitButton {
+    max-width: 188px;
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px 15px;
+    margin-bottom: 5px;
+    text-align: center;
+    background: #00ca95;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 2px;
+}
+.savButtonWidget .visitInfo {
+    color: #989898;
+    font-size: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.card11 {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100%;
+}
+
+.card11:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container11 {
+  padding: 2px 16px;
+}
+.activeb
+{
+  background-color: #d025db;
+  color: white;
+}
+.con
+{
+  width: 300px;
+  margin-left: 19px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.threed:hover
+{
+        box-shadow:
+                1px 1px #0b187a,
+                2px 2px #0b187a,
+                3px 3px #0b187a;
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+}
+
+
+
+
+
+/**{
+  margin:0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+*/
+.container1
+{
+  width: 90%;
+  padding: 20px;
+  margin:100px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+ /* background-image: url(resources/newpro/s1.jpeg);
+*/
+}
+
+.box
+{
+  width: 250px;
+  
+  box-shadow: 0 0 20px 2px rgba(0,0,0,.1);
+
+ /* height: auto;
+  padding: 20px;
+  
+   background-image: url(resources/newpro/s1.jpeg);
+  border: 3px solid #ddd;
+
+  font-size: 30px;
+
+  flex: 4;*/
+  transition: 1s;
+
+
+
+
+}
+.box img
+{
+  display: block;
+  /*width: 100%;*/
+  border-radius: 5px;
+  height: 500px !important;
+  width: 600px !important;
+}
+
+.box:hover
+{
+  flex: 4;
+ /* 
+ background-image: url(resources/newpro/s1.jpeg);*/
+/* transform: scale(1.3);
+ */
+}
+/*
+ class="container1">
+      <div class="box">
+     <img src="resources/newpro/s1.jpeg">
+      </div>
+      <div class="box">
+      <img src="resources/newpro/s1.jpeg">
+      </div>
+      <div class="box">
+        <img src="resources/newpro/s1.jpeg">
+      </div>
+      <div class="box">
+         <img src="resources/newpro/s1.jpeg">
+      </div>
+      <div class="box">
+         <img src="resources/newpro/s1.jpeg">
+      </div>*/
